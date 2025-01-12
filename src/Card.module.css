@@ -1,0 +1,27 @@
+/* Scoped CSS for Cards */
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff6347; /* Tomato color */
+  }
+  
+  .cardDescription {
+    color: #333;
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+  

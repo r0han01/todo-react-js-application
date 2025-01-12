@@ -1,0 +1,63 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box; /* Include padding and border in width/height */
+  background-image: url('https://img.freepik.com/premium-photo/list-icon-notebook-with-completed-todo-list-3d-render_471402-428.jpg?w=1380');
+  background-size: cover; /* Make the image cover the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  min-height: 100vh; /* Ensure the container is at least the height of the viewport */
+}
+
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #e53935;
+}

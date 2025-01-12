@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+
+# Build directory (created during `npm run build`)
+build/
+
+# Git files
+.git
+.gitignore
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# IDE / Editor directories and files
+.idea/
+.vscode/
+
+# Logs
+*.log
